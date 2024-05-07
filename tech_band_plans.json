@@ -1,0 +1,490 @@
+{
+    "uhf":{
+        "23 centimeters":[
+            {"upper limit": 1246,
+            "lower limit": 1240,
+            "mode":"ATV"
+            },
+            {"upper limit": 1248,
+            "lower limit": 1246,
+            "mode": "FM, digital"
+            },
+            {"upper limit": 1252,
+            "lower limit": 1248,
+            "mode": "Digital"
+            },
+            {"upper limit": 1258,
+            "lower limit": 1252,
+            "mode": "ATV"
+            },
+            {"upper limit": 1260,
+            "lower limit": 1258,
+            "mode": "FM, digital"
+            },
+            {"upper limit": 1260,
+            "lower limit": 1240,
+            "mode": "FM ATV - Regional Option"
+            },
+            {"upper limit": 1270,
+            "lower limit": 1260,
+            "mode": "Various"
+            },
+            {"upper limit": 1276,
+            "lower limit": 1270,
+            "mode": "FM, digital"
+            },
+            {"upper limit": 1274,
+            "lower limit": 1270,
+            "mode": "Fm, digital"
+            },
+            {"upper limit": 1282,
+            "lower limit": 1276,
+            "mode": "ATV"
+            },
+            {"upper limit": 1294,
+            "lower limit": 1288,
+            "mode": "Various"
+            },
+            {"upper limit": 1294,
+            "lower limit": 1290,
+            "mode": "FM, digital"
+            },
+            {"upper limit": 1295,
+            "lower limit": 1294,
+            "mode":"FM"
+            },
+            {"upper limit":1297 ,
+            "lower limit": 1295,
+            "mode":"Narrow Band"
+            },
+            {"upper limit": 1295.800,
+            "lower limit": 1295,
+            "mode":"Various"
+            },
+            {"upper limit": 1296.080,
+            "lower limit": 1295.800,
+            "mode":"CW, SSB, digital"
+            },
+            {"upper limit": 1296.200,
+            "lower limit": 1296.080,
+            "mode":"CW, SSB"
+            },
+            {"upper limit": 1296.400,
+            "lower limit": 1296.200,
+            "mode":"CW, digital"
+            },
+            {"upper limit": 1297,
+            "lower limit": 1296.400,
+            "mode":"Various"
+            },
+            {"upper limit": 1300,
+            "lower limit": 1297.000,
+            "mode":"Digital"
+            }
+        ],
+        "33 centimeters":[
+            {"upper limit": 902.075,
+            "lower limit": 902,
+            "mode": "FM/ othe including DV or CW/SSB"
+            },
+            {"upper limit": 902.100,
+            "lower limit": 902.075,
+            "mode":"CW/SSB"
+            },
+            {"upper limit": 902.100,
+            "lower limit": 902.100,
+            "mode":"Weak Signal Calling Frequency"
+            },
+            {"upper limit": 902.125,
+            "lower limit": 902.100,
+            "mode":"CW,SSB"
+            },
+            {"upper limit":903.000,
+            "lower limit": 902.125,
+            "mode":"FM/other including DV"
+            },
+            {"upper limit": 903.100,
+            "lower limit": 903,
+            "mode": "CW/SSB"
+            },
+            {"upper limit": 903.100,
+            "lower limit": 903.100,
+            "mode": "Weak Signal Calling Frequency"
+            },
+            {"upper limit": 903.400,
+            "lower limit": 903.100,
+            "mode":"CW/SSB"
+            },
+            {"upper limit": 909.000,
+            "lower limit": 903.400,
+            "mode":"Mixed modes"
+            },
+            {"upper limit": 915.000,
+            "lower limit": 909.000,
+            "mode":"Analog/digital"
+            },
+            {"upper limit": 921.000,
+            "lower limit": 915.000,
+            "mode":"Analog/digital"
+            },
+            {"upper limit": 927.000,
+            "lower limit": 921.000,
+            "mode": "Analog/digital"
+            },
+            {"upper limit": 927.075,
+            "lower limit": 927.000,
+            "mode":"FM/other including DV"
+            },
+            {"upper limit": 927.125,
+            "lower limit": 927.075,
+            "mode":"FM/other including DV"
+            },
+            {"upper limit": 928.000,
+            "lower limit": 927.125,
+            "mode":"FM/other including DV"
+            }
+        ],
+        "70 centimeters":[
+            {"upper limit": 426.000,
+            "lower limit": 420.000,
+            "mode": "ATV repeater or simplex with 421.25 MHz video carrier control links and experimental"
+            },
+            {"upper limit": 432.000,
+            "lower limit": 426.000,
+            "mode":"ATV simplex with 427.250-MHz video carrier frequency"
+            },
+            {"upper limit": 432.070,
+            "lower limit": 426.000,
+            "mode":"EME (Earth-Moon-Earth)"
+            },
+            {"upper limit": 432.100,
+            "lower limit": 4332.070,
+            "mode":"Weak-signal CW"
+            },
+            {"upper limit": 432.100,
+            "lower limit": 432.100,
+            "mode": "70-cm calling frequency"
+            },
+            {"upper limit": 432.300,
+            "lower limit": 432.100,
+            "mode":"Mixed-mode and weak-signal work"
+            },
+            {"upper limit": 432.400,
+            "lower limit": 432.300,
+            "mode":"Propagation beacons"
+            },
+            {"upper limit": 433.000,
+            "lower limit": 432.400,
+            "mode":"Mixed-mode and weak-signal work"
+            },
+            {"upper limit": 435.000,
+            "lower limit": 433.000,
+            "mode":"Auxiliary/repeater links"
+            },
+            {"upper limit": 438.000,
+            "lower limit": 435.000,
+            "mode":"Satellite only (internationally)"
+            },
+            {"upper limit": 444.000,
+            "lower limit": 438.000,
+            "mode":"ATV repeater input with 439.250-MHz video carrier frequency and repeater links"
+            },
+            {"upper limit": 445.000,
+            "lower limit": 442.000,
+            "mode": "Repeater inputs and outputs (local option)"
+            },
+            {"upper limit": 447.000,
+            "lower limit": 445.000,
+            "mode": "Shared by auxiliary and control links, repeaters and simplex (local option)"
+            },
+            {"upper limit": 446.000,
+            "lower limit": 446.000,
+            "mode":"National simplex frequency"
+            },
+            {"upper limit": 450.000,
+            "lower limit": 447.000,
+            "mode":"Repeater inputs and outputs"
+            }
+        ]
+    },
+    "vhf":{
+        "1.25 meters":[
+            {"upper limit": 222.150,
+            "lower limit": 222.000,
+            "mode":"Weak-signal modes"
+            },
+            {"upper limit": 222.025,
+            "lower limit": 222.000,
+            "mode":"EME"            
+            },
+            {"upper limit": 222.060,
+            "lower limit": 222.050,
+            "mode": "Propagation beacons"
+            },
+            {"upper limit":222.100 ,
+            "lower limit": 222.100,
+            "mode": "SSB & CW calling frequency"
+            },
+            {"upper limit": 222.150,
+            "lower limit": 222.10,
+            "mode": "Weak-signal CW & SSB"
+            },
+            {"upper limit": 222.250,
+            "lower limit": 222.150,
+            "mode": "Local coordinator's option; weak signal, ACSB, repeater inputs, control"
+            },
+            {"upper limit": 222.380,
+            "lower limit": 223.250,
+            "mode":"FM repeater inputs only"
+            },
+            {"upper limit": 223.520,
+            "lower limit": 223.40,
+            "mode":"FM simplex"
+            },
+            {"upper limit": 223.640,
+            "lower limit": 223.520,
+            "mode": "Digital, packet"
+            },
+            {"upper limit": 223.700,
+            "lower limit": 223.640,
+            "mode": "Links, control"
+            },
+            {"upper limit": 223.850,
+            "lower limit": 223.710,
+            "mode": "Local coordinator's option; FM simplex, packet, repeater outputs"
+            },
+            {"upper limit": 224.980,
+            "lower limit": 223.850,
+            "mode":"Repeater outputs only"
+            }
+        ],
+        "2 meters":[
+            {"upper limit": 144.050,
+            "lower limit": 144.000,
+            "mode":"EME (CW)"
+            },
+            {"upper limit": 144.100,
+            "lower limit": 144.050,
+            "mode":"General CW and weak signals"
+            },
+            {"upper limit": 144.200,
+            "lower limit": 144.200,
+            "mode": "National calling frequency"
+            },
+            {"upper limit": 144.275,
+            "lower limit": 144.200,
+            "mode": "General SSB operation"
+            },
+            {"upper limit": 144.300,
+            "lower limit": 144.275,
+            "mode": "Propagation beacons"
+            },
+            {"upper limit": 144.500,
+            "lower limit": 144.300,
+            "mode": "New OSCAR subband"
+            },
+            {"upper limit": 144.600,
+            "lower limit": 144.500,
+            "mode":"Linear translator inputs"
+            },
+            {"upper limit": 144.900,
+            "lower limit": 144.600,
+            "mode":"FM repeater inputs"
+            },
+            {"upper limit": 145.100,
+            "lower limit": 144.900,
+            "mode":"Weak signal and FM simplex (145.01,03,05,07,09 are widely used for packet)"
+            },
+            {"upper limit": 145.200,
+            "lower limit": 145.100,
+            "mode":"Linear translator outputs"
+            },
+            {"upper limit": 145.500,
+            "lower limit": 145.200,
+            "mode":"FM repeater outputs"
+            },
+            {"upper limit": 145.800,
+            "lower limit": 145.500,
+            "mode":"Miscellaneous and experimental modes"
+            },
+            {"upper limit": 146.000,
+            "lower limit": 145.800,
+            "mode":"OSCAR subband"
+            },
+            {"upper limit": 146.370,
+            "lower limit": 146.010,
+            "mode":"Repeater inputs"
+            },
+            {"upper limit": 146.580,
+            "lower limit": 146.400,
+            "mode":"Simplex"
+            },
+            {"upper limit": 146.520,
+            "lower limit": 146.520,
+            "mode":"National Simplex calling frequency"
+            },
+            {"upper limit": 146.970,
+            "lower limit": 146.610,
+            "mode": "Repeater outputs"
+            },
+            {"upper limit": 147.390,
+            "lower limit": 147.000,
+            "mode": "Repeater outputs"
+            },
+            {"upper limit": 147.570,
+            "lower limit": 147.000,
+            "mode":"Simplex"
+            },
+            {"upper limit": 147.990,
+            "lower limit": 147.600,
+            "mode":"Repeater inputs"
+            }
+        ],
+        "6 meters":[
+            {"upper limit": 50.100,
+            "lower limit": 50.000,
+            "mode":"CW, beacons"
+            },
+            {"upper limit": 50.080,
+            "lower limit": 50.060,
+            "mode":"beacon subband"
+            },
+            {"upper limit": 50.300,
+            "lower limit": 50.100,
+            "mode":"SSB, CW"
+            },
+            {"upper limit": 50.125,
+            "lower limit": 50.100,
+            "mode":"DX window"
+            },
+            {"upper limit": 50.125,
+            "lower limit": 50.125,
+            "mode":"SSB calling frequency"
+            },
+            {"upper limit": 50.600,
+            "lower limit": 50.300,
+            "mode":"All modes"
+            },
+            {"upper limit": 50.800,
+            "lower limit": 50.600,
+            "mode":"Nonvoice communications"
+            },
+            {"upper limit": 50.620,
+            "lower limit": 50.620,
+            "mode":"Digital (packet) calling"
+            },
+            {"upper limit": 51.000,
+            "lower limit": 50.800,
+            "mode":"Radio remote control (20-kHz channel)"
+            },
+            {"upper limit": 51.100,
+            "lower limit": 51.000,
+            "mode":"Pacific DX window"
+            },
+            {"upper limit": 51.480,
+            "lower limit": 51.120,
+            "mode":"Repeater inputs (19 channels)"
+            },
+            {"upper limit": 51.180,
+            "lower limit": 51.120,
+            "mode":"Digital repeater inputs"
+            },
+            {"upper limit": 51.600,
+            "lower limit": 51.500,
+            "mode": "Simplex (six channels)"
+            },
+            {"upper limit": 51.980,
+            "lower limit": 51.620,
+            "mode":"Repeater outputs (19 channels)"
+            },
+            {"upper limit": 51.180,
+            "lower limit": 51.620,
+            "mode": "Digital repeater outputs"
+            },
+            {"upper limit": 52.480,
+            "lower limit": 52.000,
+            "mode":"Repeater inputs (except as noted; 23 channels)"
+            },
+            {"upper limit": 52.040,
+            "lower limit": 52.020,
+            "mode":"FM simplex"
+            },
+            {"upper limit": 52.200,
+            "lower limit": 52.200,
+            "mode":"TEST PAIR (input)"
+            },
+            {"upper limit": 52.980,
+            "lower limit": 52.500,
+            "mode":"Repeater output (except as noted; 23 channels)"
+            },
+            {"upper limit": 52.525,
+            "lower limit": 52.525,
+            "mode":"Primary FM simplex"
+            },
+            {"upper limit": 52.54,
+            "lower limit": 52.54,
+            "mode":"Secondary FM simplex"
+            },
+            {"upper limit": 52.700,
+            "lower limit": 52.700,
+            "mode":"TEST PAIR (output)"
+            },
+            {"upper limit": 53.480,
+            "lower limit": 53.000,
+            "mode":"Repeater inputs (except as noted; 19 channels)"
+            },
+            {"upper limit": 53.000,
+            "lower limit": 53.000,
+            "mode":"Remote base FM simplex"
+            },
+            {"upper limit": 53.020,
+            "lower limit": 53.020,
+            "mode":"Simplex"
+            },
+            {"upper limit": 53.980,
+            "lower limit": 53.500,
+            "mode":"Repeater outputs (except as noted; 19 channels)"
+            },
+            {"upper limit": 53.520,
+            "lower limit": 53.520,
+            "mode":"Simplex"
+            },
+            {"upper limit": 53.900,
+            "lower limit": 53.900,
+            "mode":"Simplex"
+            },
+            {"upper limit": 53.100,
+            "lower limit": 53.100,
+            "mode":"Radio remote control"
+            },
+            {"upper limit": 53.200,
+            "lower limit": 53.200,
+            "mode":"Radio remote control"
+            },
+            {"upper limit": 53.300,
+            "lower limit": 53.300,
+            "mode":"Radio remote control"
+            },
+            {"upper limit": 53.400,
+            "lower limit": 53.400,
+            "mode":"Radio remote control"
+            },
+            {"upper limit": 53.500,
+            "lower limit": 53.500,
+            "mode":"Radio remote control"
+            },
+            {"upper limit": 53.600,
+            "lower limit": 53.600,
+            "mode":"Radio remote control"
+            },
+            {"upper limit": 53.700,
+            "lower limit": 53.700,
+            "mode":"Radio remote control"
+            },
+            {"upper limit": 53.800,
+            "lower limit": 53.800,
+            "mode":"Radio remote control"
+            }
+        ]
+        }
+    } 

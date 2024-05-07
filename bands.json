@@ -1,0 +1,740 @@
+/*
+band template:
+{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": ,
+                        "upper limit":
+                        },
+                    "Phone and image":{
+                        "lower limit": ,
+                        "upper limit":
+                        },
+                    "CW only":{
+                        "lower limit": ,
+                        "upper limit":
+                        },
+                    "SSB phone":{
+                        "lower limit": ,
+                        "upper limit":
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": ,
+                        "upper limit":
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": ,
+                        "upper limit":
+                        }
+                    },
+                "pep": 
+                }
+
+
+*/
+
+
+// I need a way to figure out how to handle 60m since it's...tricky.
+// All frequencies in MHz
+// PEP is in watts
+
+[
+{"license":
+    {"name":"Technician",
+    "bands":{
+        "uhf":{
+            "23 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "Phone and image":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },,
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 1500
+                },
+            "33 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 
+                },
+            "70 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 1500
+                },
+            },
+        "vhf":{
+            "1.25 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "CW only":{
+                        "lower limit": "Same as all except fixed digital portion.",
+                        "upper limit": "Same as all except fixed digital portion."
+                        },
+                    "SSB phone":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": 219.000,
+                        "upper limit": 220.000
+                        }
+                    },
+                "pep": 1500
+                },
+            "2 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "CW only":{
+                        "lower limit": 144.000,
+                        "upper limit": 144.100
+                        },
+                    "SSB phone":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes permitted on band except CW portion.",
+                        "upper limit":"All modes permitted on band except CW portion."
+                        }
+                    },
+                "pep": 1500
+                },
+            "6 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "CW only":{
+                        "lower limit": 50.000,
+                        "upper limit": 50.100
+                        },
+                    "SSB phone":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes permitted on band except CW portion.",
+                        "upper limit": "All modes permitted on band except CW portion."
+                        }
+                    },
+                "pep": 1500 
+                }
+            },
+        "hf":{
+            "10 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 28.000,
+                        "upper limit": 28.300
+                        },
+                    "Phone and image":{
+                        "lower limit": "SSB,RTTY and Data only permitted on this band.",
+                        "upper limit": "SSB,RTTY and Data only permitted on this band."
+                        },
+                    "CW only":{
+                        "lower limit": 28.000,
+                        "upper limit": 28.300
+                        },
+                    "SSB phone":{
+                        "lower limit": 28.300,
+                        "upper limit": 28.500
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": "SSB and data separated on this band.",
+                        "upper limit": "SSB and data separated on this band."
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "SSB,RTTY and Data only permitted on this band.",
+                        "upper limit": "SSB,RTTY and Data only permitted on this band."
+                        }
+                    },
+                "pep": 200
+                },
+                "15 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "Phone and image":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "CW only":{
+                        "lower limit": 21.025,
+                        "upper limit": 21.200
+                        },
+                    "SSB phone":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    },
+                "pep": 200 
+                },
+                "40 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "Phone and image":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "CW only":{
+                        "lower limit": 7.075,
+                        "upper limit": 7.125
+                        },
+                    "SSB phone":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    },
+                "pep": 200
+                },
+                "80 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "Phone and image":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "CW only":{
+                        "lower limit": 3.525,
+                        "upper limit": 3.600
+                        },
+                    "SSB phone":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "CW only on this band.",
+                        "upper limit": "CW only on this band."
+                        },
+                    },
+                "pep": 200
+                }
+        }
+    }
+    }
+},
+{"license":
+    {"name":"General",
+    "bands":{
+        "uhf":{
+            "23 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "Phone and image":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },,
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 1500
+                },
+            "33 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 
+                },
+            "70 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 1500
+                },
+            },
+        "vhf":{
+            "1.25 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "CW only":{
+                        "lower limit": "Same as all except fixed digital portion.",
+                        "upper limit": "Same as all except fixed digital portion."
+                        },
+                    "SSB phone":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": 219.000,
+                        "upper limit": 220.000
+                        }
+                    },
+                "pep": 1500
+                },
+            "2 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "CW only":{
+                        "lower limit": 144.000,
+                        "upper limit": 144.100
+                        },
+                    "SSB phone":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes permitted on band except CW portion.",
+                        "upper limit":"All modes permitted on band except CW portion."
+                        }
+                    },
+                "pep": 1500
+                },
+            "6 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "CW only":{
+                        "lower limit": 50.000,
+                        "upper limit": 50.100
+                        },
+                    "SSB phone":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes permitted on band except CW portion.",
+                        "upper limit": "All modes permitted on band except CW portion."
+                        }
+                    },
+                "pep": 1500 
+                }
+            },
+        "hf":{
+            "10 Meters":{},
+            "12 Meters":{},
+            "15 Meters":{},
+            "17 Meters":{},
+            "20 Meters":{},
+            "30 Meters":{},
+            "40 Meters":{},
+            "60 Meters":{},
+            "80 Meters":{},
+            "160 Meters":{},
+            "630 Meters":{},
+            "2200 Meters":{}
+        }
+    }
+    }
+},
+{"license":
+    {"name":"Ameteur Extra",
+    "bands":{
+        "uhf":{
+            "23 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "Phone and image":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 1240.000,
+                        "upper limit": 1300.000 
+                        },,
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 1500
+                },
+            "33 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 902.000,
+                        "upper limit": 928.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 
+                },
+            "70 Centimeters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "CW only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        },
+                    "SSB phone":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 420.000,
+                        "upper limit": 450.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes allowed on this band.",
+                        "upper limit": "All modes allowed on this band."
+                        }
+                    },
+                "pep": 1500
+                },
+            },
+        "vhf":{
+            "1.25 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "CW only":{
+                        "lower limit": "Same as all except fixed digital portion.",
+                        "upper limit": "Same as all except fixed digital portion."
+                        },
+                    "SSB phone":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 222.000,
+                        "upper limit": 225.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": 219.000,
+                        "upper limit": 220.000
+                        }
+                    },
+                "pep": 1500
+                },
+            "2 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "CW only":{
+                        "lower limit": 144.000,
+                        "upper limit": 144.100
+                        },
+                    "SSB phone":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 144.100,
+                        "upper limit": 148.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes permitted on band except CW portion.",
+                        "upper limit":"All modes permitted on band except CW portion."
+                        }
+                    },
+                "pep": 1500
+                },
+            "6 Meters":{
+                "modes":{
+                    "Rtty and Data":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "Phone and image":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "CW only":{
+                        "lower limit": 50.000,
+                        "upper limit": 50.100
+                        },
+                    "SSB phone":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "USB phone, CW, RTTY, and Data":{
+                        "lower limit": 50.100,
+                        "upper limit": 54.000
+                        },
+                    "Fixed digital message forwarding systems only":{
+                        "lower limit": "All modes permitted on band except CW portion.",
+                        "upper limit": "All modes permitted on band except CW portion."
+                        }
+                    },
+                "pep": 1500 
+                }
+            },
+        "hf":{
+            "10 Meters":{},
+            "12 Meters":{},
+            "15 Meters":{},
+            "17 Meters":{},
+            "20 Meters":{},
+            "30 Meters":{},
+            "40 Meters":{},
+            "60 Meters":{},
+            "80 Meters":{},
+            "160 Meters":{},
+            "630 Meters":{},
+            "2200 Meters":{}
+        }
+    }
+    }
+}
+]
